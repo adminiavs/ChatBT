@@ -1,0 +1,39 @@
+# OS/Editor
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.env
+.venv/
+venv/
+chatbt-backend/venv/
+
+# Node / Frontend
+node_modules/
+chatbt-frontend/node_modules/
+dist/
+build/
+.cache/
+.pnp*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+
+# Database / Generated Artifacts
+chatbt-backend/src/database/app.db
+
+# Coverage / Testing
+coverage/
+.pytest_cache/
+
+

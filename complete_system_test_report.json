@@ -1,0 +1,50 @@
+{
+  "timestamp": 1757137698.5270286,
+  "tests": {
+    "imports": true,
+    "initialization": true,
+    "orchestrator": true,
+    "integration": true,
+    "performance": true,
+    "api_endpoints": false
+  },
+  "orchestrator_results": 3,
+  "performance_results": [
+    {
+      "query": "How do I use list comprehensions?...",
+      "processing_time": 0.00041365623474121094,
+      "confidence": 0.3333333333333333,
+      "specialists_used": 1
+    },
+    {
+      "query": "What's wrong with this code: def func(x=[]): x.app...",
+      "processing_time": 0.0003516674041748047,
+      "confidence": 0.8,
+      "specialists_used": 1
+    },
+    {
+      "query": "Suggest the best library for file operations...",
+      "processing_time": 0.000339508056640625,
+      "confidence": 0.3333333333333333,
+      "specialists_used": 1
+    },
+    {
+      "query": "Explain the difference between lists and tuples...",
+      "processing_time": 0.00035643577575683594,
+      "confidence": 0.6666666666666667,
+      "specialists_used": 1
+    },
+    {
+      "query": "How can I optimize this slow function?...",
+      "processing_time": 0.0003459453582763672,
+      "confidence": 0.5775000000000001,
+      "specialists_used": 2
+    }
+  ],
+  "summary": {
+    "passed_tests": 5,
+    "total_tests": 6,
+    "success_rate": 0.8333333333333334,
+    "overall_status": "PASSED"
+  }
+}
